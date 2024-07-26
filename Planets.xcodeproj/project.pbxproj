@@ -11,6 +11,11 @@
 		0C2D9F442C5419CB001601A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2D9F432C5419CB001601A7 /* ContentView.swift */; };
 		0C2D9F462C5419CC001601A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F452C5419CC001601A7 /* Assets.xcassets */; };
 		0C2D9F492C5419CC001601A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F482C5419CC001601A7 /* Preview Assets.xcassets */; };
+		0C2D9F6C2C5421E5001601A7 /* green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F672C5421E5001601A7 /* green.usdz */; };
+		0C2D9F6D2C5421E5001601A7 /* lava.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F682C5421E5001601A7 /* lava.usdz */; };
+		0C2D9F6F2C5421E5001601A7 /* glass.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F6A2C5421E5001601A7 /* glass.usdz */; };
+		0C2D9F702C5421E5001601A7 /* earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F6B2C5421E5001601A7 /* earth.usdz */; };
+		0C2D9F722C54266E001601A7 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0C2D9F712C54266E001601A7 /* Venus.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		0C2D9F432C5419CB001601A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C2D9F452C5419CC001601A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2D9F482C5419CC001601A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C2D9F672C5421E5001601A7 /* green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = green.usdz; sourceTree = "<group>"; };
+		0C2D9F682C5421E5001601A7 /* lava.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lava.usdz; sourceTree = "<group>"; };
+		0C2D9F6A2C5421E5001601A7 /* glass.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = glass.usdz; sourceTree = "<group>"; };
+		0C2D9F6B2C5421E5001601A7 /* earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = earth.usdz; sourceTree = "<group>"; };
+		0C2D9F712C54266E001601A7 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		0C2D9F402C5419CB001601A7 /* Planets */ = {
 			isa = PBXGroup;
 			children = (
+				0C2D9F592C541E71001601A7 /* Objects */,
 				0C2D9F412C5419CB001601A7 /* PlanetsApp.swift */,
 				0C2D9F432C5419CB001601A7 /* ContentView.swift */,
 				0C2D9F452C5419CC001601A7 /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				0C2D9F482C5419CC001601A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C2D9F592C541E71001601A7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0C2D9F712C54266E001601A7 /* Venus.usdz */,
+				0C2D9F6B2C5421E5001601A7 /* earth.usdz */,
+				0C2D9F6A2C5421E5001601A7 /* glass.usdz */,
+				0C2D9F672C5421E5001601A7 /* green.usdz */,
+				0C2D9F682C5421E5001601A7 /* lava.usdz */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2D9F722C54266E001601A7 /* Venus.usdz in Resources */,
 				0C2D9F492C5419CC001601A7 /* Preview Assets.xcassets in Resources */,
+				0C2D9F702C5421E5001601A7 /* earth.usdz in Resources */,
+				0C2D9F6F2C5421E5001601A7 /* glass.usdz in Resources */,
 				0C2D9F462C5419CC001601A7 /* Assets.xcassets in Resources */,
+				0C2D9F6D2C5421E5001601A7 /* lava.usdz in Resources */,
+				0C2D9F6C2C5421E5001601A7 /* green.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
